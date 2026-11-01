@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #191919;
+    color: #fff;
+}
+
+.apology{
+    padding: 10px 1%;
+    background-color: #fff;
+    color: #080808;
+}
+
+.container{
+    padding: 5px 2%;
+    background-color: #080808;
+    width: 200px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 30px 10px;
+}
+
+#main-wrap{
+    display: flex;
+    flex-direction: row;
+}
+
+.work{
+    width: 50vh;
+}
+
+#content{
+    padding: 20px 20px;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: fit-content;
+}
